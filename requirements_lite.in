@@ -1,0 +1,8 @@
+pandas
+pyarrow
+numpy
+yfinance
+pandas_ta
+matplotlib
+tqdm
+ipywidgets

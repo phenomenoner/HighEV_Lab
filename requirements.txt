@@ -64,19 +64,27 @@ numpy==1.26.1
     #   contourpy
     #   matplotlib
     #   pandas
+    #   patsy
     #   pyarrow
+    #   scipy
+    #   statsmodels
     #   yfinance
 packaging==23.2
-    # via matplotlib
+    # via
+    #   matplotlib
+    #   statsmodels
 pandas==2.1.1
     # via
     #   -r requirements_lite.in
     #   pandas-ta
+    #   statsmodels
     #   yfinance
 pandas-ta==0.3.14b0
     # via -r requirements_lite.in
 parso==0.8.3
     # via jedi
+patsy==0.5.3
+    # via statsmodels
 peewee==3.17.0
     # via yfinance
 pickleshare==0.7.5
@@ -103,15 +111,20 @@ pytz==2023.3.post1
     #   yfinance
 requests==2.31.0
     # via yfinance
+scipy==1.11.3
+    # via statsmodels
 six==1.16.0
     # via
     #   asttokens
     #   html5lib
+    #   patsy
     #   python-dateutil
 soupsieve==2.5
     # via beautifulsoup4
 stack-data==0.6.3
     # via ipython
+statsmodels==0.14.0
+    # via -r requirements_lite.in
 tqdm==4.66.1
     # via -r requirements_lite.in
 traitlets==5.11.2

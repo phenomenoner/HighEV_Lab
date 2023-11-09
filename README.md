@@ -3,7 +3,7 @@ High Expected Value (High EV) trading strategies tailored for the dynamic Taiwan
 &nbsp;
 
 # 正期望值策略實驗室
-台灣股市設計的正期望值交易策略研究
+台灣股市的正期望值交易策略研究
 &nbsp;
 
 #
